@@ -108,6 +108,10 @@ jhipster:
         #max-age: 1800
     mail:
         from: kolacadFM@localhost
+    security:
+        remember-me:
+            key: 0b32a651e6a65d5731e869dc136fb301b0a8c0e4
+
     swagger:
         default-include-pattern: /api/.*
         title: kolacadFM API
